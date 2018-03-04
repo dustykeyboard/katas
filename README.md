@@ -57,3 +57,11 @@ Create a Heap, implementing push and pop methods
 ```
 node heap.test.js
 ```
+
+## Check Prime
+
+How would you verify a prime number?
+
+```
+node is-prime.test.js
+```
