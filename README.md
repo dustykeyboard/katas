@@ -27,3 +27,7 @@ Implement a Queue which implements a queue using two stacks.
 ## Binary Search Tree
 
 Implement a binary search tree with methods to insert, remove and walk the tree in order.
+
+## Heap
+
+Create a Heap, implementing push and pop methods
