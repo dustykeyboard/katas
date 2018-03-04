@@ -19,3 +19,7 @@ In the classic problem of the Towers of Hanoi, you have 3 towers and Ndisks of d
 3. A disk can only be placed on top of a larger disk.
 
 Write a program to move the disksfrom the first tower to the last using stacks.
+
+## Two-stack Queue
+
+Implement a Queue which implements a queue using two stacks.
