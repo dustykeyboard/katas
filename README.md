@@ -5,3 +5,7 @@ Algorithm reviews
 ## Basic String Compression
 
 Implement a method to perform basic string compression using the counts of repeated characters. For example, the string aabcccccaaa would become a2blc5a3. If the "compressed" string would not become smaller than the orig- inal string, your method should return the original string.
+
+## Best Profit
+
+An array contains share prices, calculate the best profit (buying before selling) for the set of data.
