@@ -10,3 +10,14 @@ if (actualOutput === exampleOutput) {
 } else {
   console.log('FAIL - received', actualOutput, 'but expected', exampleOutput)
 }
+
+const exampleInput2 = 'abc'
+const exampleOutput2 = 'abc'
+
+console.log('TEST -', exampleInput2)
+const actualOutput2 = basicStringCompression(exampleInput2)
+if (actualOutput2 === exampleOutput2) {
+  console.log('PASS -', actualOutput2, 'matches', exampleOutput2)
+} else {
+  console.log('FAIL - received', actualOutput2, 'but expected', exampleOutput2)
+}

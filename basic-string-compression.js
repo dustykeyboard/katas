@@ -11,7 +11,7 @@ function basicStringCompression(input) {
       count = 1
     }
   }
-  return compressed
+  return compressed.length < input.length ? compressed : input
 }
 
 var exports = (module.exports = basicStringCompression)
