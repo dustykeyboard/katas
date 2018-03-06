@@ -1,8 +1,9 @@
 const equal = function defaultComparison(a, b) {
-  return a === b
+  return a.toString() === b.toString()
 }
 
-const Test = function Test(name, expected, result) {
+const Test = function Test(name, result, expected) {
+  console.log('Testing: ', name)
   const pass = equal('a', 'b')
   if (equal(expected, result)) {
     console.log('Pass -', name)
