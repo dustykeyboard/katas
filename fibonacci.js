@@ -1,11 +1,9 @@
 function fibonacci(n) {
-  let fib = 1, prev = 1
-
-  for (var i = 2; i < n; i++) {
-    fib = fib + prev
+  let fib = 1
+  for (var i = 2, prev = 1; i < n; i++) {
+    fib += prev
     prev = fib - prev
   }
-
   return fib
 }
 
