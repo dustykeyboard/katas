@@ -6,5 +6,6 @@ const tests = [
   ['Prime Factors of 10', primeFactorsRecursive(10), [2, 5]],
   ['Prime Factors of 120', primeFactorsRecursive(120), [2, 2, 2, 3, 5]],
   ['Prime Factors of 144', primeFactorsRecursive(144), [2, 2, 2, 2, 3, 3]],
+  ['Prime Factors of 97', primeFactorsRecursive(97), [97]],
 ]
 tests.reduce((pass, test) => pass && Test.apply(this, test), true)
