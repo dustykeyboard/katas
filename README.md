@@ -97,3 +97,9 @@ Find all prime factors of a number
 ```
 node prime-factors.test.js
 ```
+
+Find all prime factors of a number, _recursively_
+
+```
+node prime-factors-recursive.test.js
+```
