@@ -71,7 +71,7 @@ node is-prime.test.js
 Implement a bubble sort
 
 ```
-node bubble-sort-test.js
+node bubble-sort.test.js
 ```
 
 ## Fibonacci
@@ -79,5 +79,13 @@ node bubble-sort-test.js
 Write a function to calculate the _Nth_ number in the fibonacci sequence
 
 ```
-node fibonacci-test.js
+node fibonacci.test.js
+```
+
+## Reverse a String
+
+Reverse a given string
+
+```
+node reverse-string.test.js
 ```
