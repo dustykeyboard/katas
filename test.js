@@ -3,7 +3,6 @@ const equal = function defaultComparison(a, b) {
 }
 
 const Test = function Test(name, result, expected) {
-  console.log('Testing: ', name)
   const pass = equal('a', 'b')
   if (equal(expected, result)) {
     console.log('Pass -', name)

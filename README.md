@@ -73,3 +73,11 @@ Implement a bubble sort
 ```
 node bubble-sort-test.js
 ```
+
+## Fibonacci
+
+Write a function to calculate the _Nth_ number in the fibonacci sequence
+
+```
+node fibonacci-test.js
+```
