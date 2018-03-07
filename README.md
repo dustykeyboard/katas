@@ -89,3 +89,11 @@ Reverse a given string
 ```
 node reverse-string.test.js
 ```
+
+## Prime Factors
+
+Find all prime factors of a number
+
+```
+node prime-factors.test.js
+```
