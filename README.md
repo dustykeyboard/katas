@@ -111,3 +111,12 @@ Suppose we had an array of n integers sorted in ascending order. How quickly cou
 ```
 node quick-find-in-list.test.js
 ```
+
+## Create an Emitter class
+
+An Emitter class which can create subscriptions to named events and remove them.
+An emit method exists which will call each of the subscribed functions.
+
+```
+node event-emitter.test.js
+```
