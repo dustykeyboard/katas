@@ -103,3 +103,11 @@ Find all prime factors of a number, _recursively_
 ```
 node prime-factors-recursive.test.js
 ```
+
+## Quick find in array
+
+Suppose we had an array of n integers sorted in ascending order. How quickly could we check if a given integer is in the array?
+
+```
+node quick-find-in-list.test.js
+```
