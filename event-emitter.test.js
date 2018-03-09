@@ -24,7 +24,7 @@ Test(
   'Subscription fn called by .emit',
   (() => {
     let counter = 0
-    const emitter = new Emitter()
+    const emitter = Emitter()
     const sub1 = emitter.subscribe('counter', () => counter++)
     const sub2 = emitter.subscribe('counter', () => counter++)
     emitter.emit('counter')

@@ -1,29 +1,18 @@
 function Emitter() {
-  let events = {}
-  let subId = 0
-
-  function subscribe(eventName, fn) {
-    subId++
-    if (!events[eventName]) events[eventName] = {}
-    events[eventName][subId] = fn
-
-    return {
-      unsubscribe: () => {
-        delete events[eventName][subId]
-      },
-    }
-  }
-
-  function emit(eventName, ...args) {
-    if (!events[eventName]) return false
-    Object.keys(events[eventName]).forEach(subId =>
-      events[eventName][subId].apply(null, args),
-    )
-  }
+  let i = 0,
+    events = {}
 
   return {
-    subscribe,
-    emit,
+    subscribe: (eventName, fn) => {
+      events[eventName] = events[eventName] || {}
+      events[eventName][++i] = fn
+      return { unsubscribe: () => delete events[eventName][i] }
+    },
+    emit: (eventName, ...args) => {
+      Object.entries(events[eventName] || {}).forEach(([_, fn]) =>
+        fn.apply(null, args),
+      )
+    },
   }
 }
 
